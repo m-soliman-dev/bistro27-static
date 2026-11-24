@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /admin/
+Sitemap: https://m-soliman-dev.github.io/bistro27-static/sitemap.xml
