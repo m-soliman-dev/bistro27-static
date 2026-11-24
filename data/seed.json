@@ -1,0 +1,850 @@
+{
+ "categories": [
+  {
+   "id": "burger",
+   "ar": "برجر",
+   "en": "Burgers",
+   "emoji": "🍔"
+  },
+  {
+   "id": "pizza",
+   "ar": "بيتزا",
+   "en": "Pizza",
+   "emoji": "🍕"
+  },
+  {
+   "id": "pasta",
+   "ar": "باستا",
+   "en": "Pasta",
+   "emoji": "🍝"
+  },
+  {
+   "id": "sandwiches",
+   "ar": "ساندويتشات",
+   "en": "Sandwiches",
+   "emoji": "🥪"
+  },
+  {
+   "id": "starters",
+   "ar": "مقبلات",
+   "en": "Starters",
+   "emoji": "🍟"
+  },
+  {
+   "id": "salads",
+   "ar": "سلطات",
+   "en": "Salads",
+   "emoji": "🥗"
+  },
+  {
+   "id": "desserts",
+   "ar": "حلويات",
+   "en": "Desserts",
+   "emoji": "🍰"
+  },
+  {
+   "id": "drinks",
+   "ar": "مشروبات",
+   "en": "Drinks",
+   "emoji": "🥤"
+  },
+  {
+   "id": "combos",
+   "ar": "وجبات كومبو",
+   "en": "Combos",
+   "emoji": "🎁"
+  }
+ ],
+ "products": [
+  {
+   "id": 1,
+   "cat": "burger",
+   "name_ar": "كلاسيك برجر",
+   "name_en": "Classic Burger",
+   "desc_ar": "برجر لحم بقري مشوي مع خس وطماطم وجبنة شيدر وصوص خاص",
+   "desc_en": "Grilled beef patty, lettuce, tomato, cheddar and house sauce",
+   "price": 110,
+   "emoji": "🍔",
+   "img": "img/food/1.jpg",
+   "popular": 1,
+   "new": 0,
+   "available": 1,
+   "sizes": [],
+   "extras": [
+    {
+     "ar": "جبنة زيادة",
+     "en": "Extra cheese",
+     "price": 10
+    },
+    {
+     "ar": "بيكون",
+     "en": "Bacon",
+     "price": 15
+    },
+    {
+     "ar": "صوص خاص",
+     "en": "Special sauce",
+     "price": 5
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "cat": "burger",
+   "name_ar": "تشيز برجر دبل",
+   "name_en": "Double Cheese Burger",
+   "desc_ar": "قطعتين لحم مع جبنة شيدر مضاعفة",
+   "desc_en": "Two beef patties with double cheddar",
+   "price": 160,
+   "emoji": "🍔",
+   "img": "img/food/2.jpg",
+   "popular": 1,
+   "new": 0,
+   "available": 1,
+   "sizes": [],
+   "extras": [
+    {
+     "ar": "جبنة زيادة",
+     "en": "Extra cheese",
+     "price": 10
+    },
+    {
+     "ar": "بيكون",
+     "en": "Bacon",
+     "price": 15
+    },
+    {
+     "ar": "صوص خاص",
+     "en": "Special sauce",
+     "price": 5
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "cat": "burger",
+   "name_ar": "برجر دجاج كريسبي",
+   "name_en": "Crispy Chicken Burger",
+   "desc_ar": "دجاج مقرمش مع مايونيز وخس",
+   "desc_en": "Crispy chicken, mayo and lettuce",
+   "price": 120,
+   "emoji": "🍗",
+   "img": "img/food/3.jpg",
+   "popular": 0,
+   "new": 0,
+   "available": 1,
+   "sizes": [],
+   "extras": [
+    {
+     "ar": "جبنة زيادة",
+     "en": "Extra cheese",
+     "price": 10
+    },
+    {
+     "ar": "بيكون",
+     "en": "Bacon",
+     "price": 15
+    },
+    {
+     "ar": "صوص خاص",
+     "en": "Special sauce",
+     "price": 5
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "cat": "burger",
+   "name_ar": "برجر مشروم سويس",
+   "name_en": "Mushroom Swiss Burger",
+   "desc_ar": "لحم مع مشروم مطهي بالزبدة وجبنة سويسرية",
+   "desc_en": "Beef with sautéed mushrooms and Swiss cheese",
+   "price": 150,
+   "emoji": "🍔",
+   "img": "img/food/4.jpg",
+   "popular": 0,
+   "new": 1,
+   "available": 1,
+   "sizes": [],
+   "extras": [
+    {
+     "ar": "جبنة زيادة",
+     "en": "Extra cheese",
+     "price": 10
+    },
+    {
+     "ar": "بيكون",
+     "en": "Bacon",
+     "price": 15
+    },
+    {
+     "ar": "صوص خاص",
+     "en": "Special sauce",
+     "price": 5
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "cat": "pizza",
+   "name_ar": "مارجريتا",
+   "name_en": "Margherita",
+   "desc_ar": "صلصة طماطم وموتزاريلا وريحان طازج",
+   "desc_en": "Tomato sauce, mozzarella and fresh basil",
+   "price": 120,
+   "emoji": "🍕",
+   "img": "img/food/5.jpg",
+   "popular": 1,
+   "new": 0,
+   "available": 1,
+   "sizes": [
+    {
+     "ar": "صغير",
+     "en": "Small",
+     "add": 0
+    },
+    {
+     "ar": "وسط",
+     "en": "Medium",
+     "add": 40
+    },
+    {
+     "ar": "كبير",
+     "en": "Large",
+     "add": 80
+    }
+   ],
+   "extras": [
+    {
+     "ar": "جبنة موتزاريلا زيادة",
+     "en": "Extra mozzarella",
+     "price": 15
+    },
+    {
+     "ar": "مشروم",
+     "en": "Mushrooms",
+     "price": 10
+    },
+    {
+     "ar": "زيتون",
+     "en": "Olives",
+     "price": 8
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "cat": "pizza",
+   "name_ar": "بيبروني",
+   "name_en": "Pepperoni",
+   "desc_ar": "شرائح بيبروني مع موتزاريلا",
+   "desc_en": "Pepperoni slices with mozzarella",
+   "price": 150,
+   "emoji": "🍕",
+   "img": "img/food/6.jpg",
+   "popular": 1,
+   "new": 0,
+   "available": 1,
+   "sizes": [
+    {
+     "ar": "صغير",
+     "en": "Small",
+     "add": 0
+    },
+    {
+     "ar": "وسط",
+     "en": "Medium",
+     "add": 40
+    },
+    {
+     "ar": "كبير",
+     "en": "Large",
+     "add": 80
+    }
+   ],
+   "extras": [
+    {
+     "ar": "جبنة موتزاريلا زيادة",
+     "en": "Extra mozzarella",
+     "price": 15
+    },
+    {
+     "ar": "مشروم",
+     "en": "Mushrooms",
+     "price": 10
+    },
+    {
+     "ar": "زيتون",
+     "en": "Olives",
+     "price": 8
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "cat": "pizza",
+   "name_ar": "خضار مشكل",
+   "name_en": "Veggie Supreme",
+   "desc_ar": "فلفل ومشروم وزيتون وبصل",
+   "desc_en": "Peppers, mushrooms, olives and onion",
+   "price": 135,
+   "emoji": "🍕",
+   "img": "img/food/7.jpg",
+   "popular": 0,
+   "new": 0,
+   "available": 1,
+   "sizes": [
+    {
+     "ar": "صغير",
+     "en": "Small",
+     "add": 0
+    },
+    {
+     "ar": "وسط",
+     "en": "Medium",
+     "add": 40
+    },
+    {
+     "ar": "كبير",
+     "en": "Large",
+     "add": 80
+    }
+   ],
+   "extras": [
+    {
+     "ar": "جبنة موتزاريلا زيادة",
+     "en": "Extra mozzarella",
+     "price": 15
+    },
+    {
+     "ar": "مشروم",
+     "en": "Mushrooms",
+     "price": 10
+    },
+    {
+     "ar": "زيتون",
+     "en": "Olives",
+     "price": 8
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "cat": "pizza",
+   "name_ar": "فراخ باربكيو",
+   "name_en": "BBQ Chicken",
+   "desc_ar": "دجاج مشوي مع صوص باربكيو",
+   "desc_en": "Grilled chicken with BBQ sauce",
+   "price": 160,
+   "emoji": "🍕",
+   "img": "img/food/8.jpg",
+   "popular": 0,
+   "new": 1,
+   "available": 1,
+   "sizes": [
+    {
+     "ar": "صغير",
+     "en": "Small",
+     "add": 0
+    },
+    {
+     "ar": "وسط",
+     "en": "Medium",
+     "add": 40
+    },
+    {
+     "ar": "كبير",
+     "en": "Large",
+     "add": 80
+    }
+   ],
+   "extras": [
+    {
+     "ar": "جبنة موتزاريلا زيادة",
+     "en": "Extra mozzarella",
+     "price": 15
+    },
+    {
+     "ar": "مشروم",
+     "en": "Mushrooms",
+     "price": 10
+    },
+    {
+     "ar": "زيتون",
+     "en": "Olives",
+     "price": 8
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "cat": "pasta",
+   "name_ar": "ألفريدو دجاج",
+   "name_en": "Chicken Alfredo",
+   "desc_ar": "بينّي بصوص الكريمة والدجاج",
+   "desc_en": "Penne in cream sauce with chicken",
+   "price": 120,
+   "emoji": "🍝",
+   "img": "img/food/9.jpg",
+   "popular": 1,
+   "new": 0,
+   "available": 1,
+   "sizes": [],
+   "extras": []
+  },
+  {
+   "id": 10,
+   "cat": "pasta",
+   "name_ar": "باستا بولونيز",
+   "name_en": "Pasta Bolognese",
+   "desc_ar": "سباجتي بصوص اللحم",
+   "desc_en": "Spaghetti with meat sauce",
+   "price": 130,
+   "emoji": "🍝",
+   "img": "img/food/10.jpg",
+   "popular": 0,
+   "new": 0,
+   "available": 1,
+   "sizes": [],
+   "extras": []
+  },
+  {
+   "id": 11,
+   "cat": "pasta",
+   "name_ar": "باستا بيستو",
+   "name_en": "Pesto Pasta",
+   "desc_ar": "باستا بصوص البيستو والجبنة",
+   "desc_en": "Pasta with basil pesto and cheese",
+   "price": 115,
+   "emoji": "🍝",
+   "img": "img/food/11.jpg",
+   "popular": 0,
+   "new": 1,
+   "available": 1,
+   "sizes": [],
+   "extras": []
+  },
+  {
+   "id": 12,
+   "cat": "sandwiches",
+   "name_ar": "كلوب ساندويتش",
+   "name_en": "Club Sandwich",
+   "desc_ar": "دجاج وجبنة وخس وطماطم في ثلاث طبقات",
+   "desc_en": "Chicken, cheese, lettuce and tomato in three layers",
+   "price": 95,
+   "emoji": "🥪",
+   "img": "img/food/12.jpg",
+   "popular": 1,
+   "new": 0,
+   "available": 1,
+   "sizes": [],
+   "extras": []
+  },
+  {
+   "id": 13,
+   "cat": "sandwiches",
+   "name_ar": "كرسبي راب",
+   "name_en": "Crispy Wrap",
+   "desc_ar": "راب دجاج كريسبي مع صوص ثوم",
+   "desc_en": "Crispy chicken wrap with garlic sauce",
+   "price": 100,
+   "emoji": "🌯",
+   "img": "img/food/13.jpg",
+   "popular": 0,
+   "new": 0,
+   "available": 1,
+   "sizes": [],
+   "extras": []
+  },
+  {
+   "id": 14,
+   "cat": "sandwiches",
+   "name_ar": "ستيك ساندويتش",
+   "name_en": "Steak Sandwich",
+   "desc_ar": "شرائح ستيك مع بصل مكرمل وجبنة",
+   "desc_en": "Steak slices, caramelized onion and cheese",
+   "price": 140,
+   "emoji": "🥪",
+   "img": "img/food/14.jpg",
+   "popular": 0,
+   "new": 0,
+   "available": 1,
+   "sizes": [],
+   "extras": []
+  },
+  {
+   "id": 15,
+   "cat": "starters",
+   "name_ar": "بطاطس مقرمشة",
+   "name_en": "Crispy Fries",
+   "desc_ar": "بطاطس ذهبية مع كاتشب",
+   "desc_en": "Golden fries with ketchup",
+   "price": 45,
+   "emoji": "🍟",
+   "img": "img/food/15.jpg",
+   "popular": 1,
+   "new": 0,
+   "available": 1,
+   "sizes": [],
+   "extras": []
+  },
+  {
+   "id": 16,
+   "cat": "starters",
+   "name_ar": "أصابع موتزاريلا",
+   "name_en": "Mozzarella Sticks",
+   "desc_ar": "6 قطع مع صوص طماطم",
+   "desc_en": "6 pieces with marinara",
+   "price": 75,
+   "emoji": "🧀",
+   "img": "img/food/16.jpg",
+   "popular": 0,
+   "new": 0,
+   "available": 1,
+   "sizes": [],
+   "extras": []
+  },
+  {
+   "id": 17,
+   "cat": "starters",
+   "name_ar": "أجنحة دجاج",
+   "name_en": "Chicken Wings",
+   "desc_ar": "8 قطع بصوص حار أو باربكيو",
+   "desc_en": "8 pieces, hot or BBQ sauce",
+   "price": 110,
+   "emoji": "🍗",
+   "img": "img/food/17.jpg",
+   "popular": 0,
+   "new": 1,
+   "available": 1,
+   "sizes": [],
+   "extras": []
+  },
+  {
+   "id": 18,
+   "cat": "salads",
+   "name_ar": "سلطة سيزر",
+   "name_en": "Caesar Salad",
+   "desc_ar": "خس رومين ودجاج مشوي وبارميزان",
+   "desc_en": "Romaine, grilled chicken and parmesan",
+   "price": 85,
+   "emoji": "🥗",
+   "img": "img/food/18.jpg",
+   "popular": 0,
+   "new": 0,
+   "available": 1,
+   "sizes": [],
+   "extras": []
+  },
+  {
+   "id": 19,
+   "cat": "salads",
+   "name_ar": "سلطة يونانية",
+   "name_en": "Greek Salad",
+   "desc_ar": "خيار وطماطم وزيتون وجبنة فيتا",
+   "desc_en": "Cucumber, tomato, olives and feta",
+   "price": 80,
+   "emoji": "🥗",
+   "img": "img/food/19.jpg",
+   "popular": 0,
+   "new": 0,
+   "available": 1,
+   "sizes": [],
+   "extras": []
+  },
+  {
+   "id": 20,
+   "cat": "salads",
+   "name_ar": "سلطة كول سلو",
+   "name_en": "Coleslaw",
+   "desc_ar": "كرنب وجزر بصوص كريمي",
+   "desc_en": "Cabbage and carrot in creamy dressing",
+   "price": 35,
+   "emoji": "🥗",
+   "img": "img/food/20.jpg",
+   "popular": 0,
+   "new": 0,
+   "available": 1,
+   "sizes": [],
+   "extras": []
+  },
+  {
+   "id": 21,
+   "cat": "desserts",
+   "name_ar": "براوني بالآيس كريم",
+   "name_en": "Brownie with Ice Cream",
+   "desc_ar": "براوني دافئ مع كرة آيس كريم فانيليا",
+   "desc_en": "Warm brownie with vanilla ice cream",
+   "price": 75,
+   "emoji": "🍫",
+   "img": "img/food/21.jpg",
+   "popular": 1,
+   "new": 0,
+   "available": 1,
+   "sizes": [],
+   "extras": []
+  },
+  {
+   "id": 22,
+   "cat": "desserts",
+   "name_ar": "تشيز كيك",
+   "name_en": "Cheesecake",
+   "desc_ar": "تشيز كيك كريمي بصوص التوت",
+   "desc_en": "Creamy cheesecake with berry sauce",
+   "price": 85,
+   "emoji": "🍰",
+   "img": "img/food/22.jpg",
+   "popular": 0,
+   "new": 0,
+   "available": 1,
+   "sizes": [],
+   "extras": []
+  },
+  {
+   "id": 23,
+   "cat": "desserts",
+   "name_ar": "أم علي",
+   "name_en": "Om Ali",
+   "desc_ar": "حلوى مصرية بالمكسرات والقشطة",
+   "desc_en": "Egyptian dessert with nuts and cream",
+   "price": 60,
+   "emoji": "🥣",
+   "img": "img/food/23.jpg",
+   "popular": 0,
+   "new": 1,
+   "available": 1,
+   "sizes": [],
+   "extras": []
+  },
+  {
+   "id": 24,
+   "cat": "drinks",
+   "name_ar": "كولا",
+   "name_en": "Cola",
+   "desc_ar": "180 مل مثلجة",
+   "desc_en": "Iced cola",
+   "price": 30,
+   "emoji": "🥤",
+   "img": "img/food/24.jpg",
+   "popular": 0,
+   "new": 0,
+   "available": 1,
+   "sizes": [],
+   "extras": []
+  },
+  {
+   "id": 25,
+   "cat": "drinks",
+   "name_ar": "ليمون بالنعناع",
+   "name_en": "Mint Lemonade",
+   "desc_ar": "عصير ليمون طازج بالنعناع",
+   "desc_en": "Fresh lemon with mint",
+   "price": 45,
+   "emoji": "🍋",
+   "img": "img/food/25.jpg",
+   "popular": 1,
+   "new": 0,
+   "available": 1,
+   "sizes": [],
+   "extras": []
+  },
+  {
+   "id": 26,
+   "cat": "drinks",
+   "name_ar": "ميلك شيك شوكولاتة",
+   "name_en": "Chocolate Milkshake",
+   "desc_ar": "ميلك شيك كثيف بالشوكولاتة",
+   "desc_en": "Thick chocolate milkshake",
+   "price": 70,
+   "emoji": "🥛",
+   "img": "img/food/26.jpg",
+   "popular": 0,
+   "new": 0,
+   "available": 1,
+   "sizes": [],
+   "extras": []
+  },
+  {
+   "id": 27,
+   "cat": "combos",
+   "name_ar": "كومبو كلاسيك",
+   "name_en": "Classic Combo",
+   "desc_ar": "كلاسيك برجر + بطاطس + مشروب",
+   "desc_en": "Classic Burger + fries + drink",
+   "price": 175,
+   "emoji": "🎁",
+   "img": "img/food/27.jpg",
+   "popular": 1,
+   "new": 0,
+   "available": 1,
+   "sizes": [],
+   "extras": []
+  },
+  {
+   "id": 28,
+   "cat": "combos",
+   "name_ar": "كومبو العائلة",
+   "name_en": "Family Combo",
+   "desc_ar": "بيتزا كبيرة + 4 ساندويتشات + بطاطس + 4 مشروبات",
+   "desc_en": "Large pizza + 4 sandwiches + fries + 4 drinks",
+   "price": 520,
+   "emoji": "🎁",
+   "img": "img/food/28.jpg",
+   "popular": 0,
+   "new": 0,
+   "available": 1,
+   "sizes": [],
+   "extras": []
+  },
+  {
+   "id": 29,
+   "cat": "combos",
+   "name_ar": "كومبو الشباب",
+   "name_en": "Friends Combo",
+   "desc_ar": "2 برجر + بيتزا وسط + 2 مشروب",
+   "desc_en": "2 burgers + medium pizza + 2 drinks",
+   "price": 390,
+   "emoji": "🎁",
+   "img": "img/food/29.jpg",
+   "popular": 0,
+   "new": 1,
+   "available": 1,
+   "sizes": [],
+   "extras": []
+  }
+ ],
+ "areas": [],
+ "coupons": [
+  {
+   "code": "BISTRO10",
+   "type": "percent",
+   "value": 10,
+   "min": 150,
+   "active": 1
+  },
+  {
+   "code": "FIRST15",
+   "type": "percent",
+   "value": 15,
+   "min": 250,
+   "active": 1
+  }
+ ],
+ "banners": [
+  {
+   "id": 1,
+   "img": "img/hero.jpg",
+   "link": "#/menu"
+  },
+  {
+   "id": 2,
+   "img": "img/offers.jpg",
+   "link": "#/offers"
+  },
+  {
+   "id": 3,
+   "img": "img/menu.jpg",
+   "link": "#/menu"
+  }
+ ],
+ "offers": [
+  {
+   "id": 1,
+   "title_ar": "كومبو كلاسيك بسعر مميز",
+   "title_en": "Classic Combo deal",
+   "desc_ar": "برجر + بطاطس + مشروب في وجبة واحدة",
+   "desc_en": "Burger + fries + drink in one meal",
+   "code": "",
+   "product": 27
+  },
+  {
+   "id": 2,
+   "title_ar": "خصم 10% بكود BISTRO10",
+   "title_en": "10% off with BISTRO10",
+   "desc_ar": "على الطلبات فوق 150 جنيه",
+   "desc_en": "On orders over 150 EGP",
+   "code": "BISTRO10",
+   "product": 0
+  },
+  {
+   "id": 3,
+   "title_ar": "خصم 15% على أول طلب",
+   "title_en": "15% off your first order",
+   "desc_ar": "استخدم كود FIRST15 على الطلبات فوق 250 جنيه",
+   "desc_en": "Use code FIRST15 on orders over 250 EGP",
+   "code": "FIRST15",
+   "product": 0
+  },
+  {
+   "id": 4,
+   "title_ar": "كومبو العيلة",
+   "title_en": "Family Combo",
+   "desc_ar": "بيتزا كبيرة + 4 ساندويتشات + بطاطس + 4 مشروبات",
+   "desc_en": "Large pizza + 4 sandwiches + fries + 4 drinks",
+   "code": "",
+   "product": 28
+  }
+ ],
+ "reviews": [],
+ "hours": [
+  {
+   "day": 0,
+   "open": "00:00",
+   "close": "23:59",
+   "closed": 0
+  },
+  {
+   "day": 1,
+   "open": "00:00",
+   "close": "23:59",
+   "closed": 0
+  },
+  {
+   "day": 2,
+   "open": "00:00",
+   "close": "23:59",
+   "closed": 0
+  },
+  {
+   "day": 3,
+   "open": "00:00",
+   "close": "23:59",
+   "closed": 0
+  },
+  {
+   "day": 4,
+   "open": "00:00",
+   "close": "23:59",
+   "closed": 0
+  },
+  {
+   "day": 5,
+   "open": "00:00",
+   "close": "23:59",
+   "closed": 0
+  },
+  {
+   "day": 6,
+   "open": "00:00",
+   "close": "23:59",
+   "closed": 0
+  }
+ ],
+ "settings": {
+  "name": "BISTRO 27",
+  "whatsapp": "201035454936",
+  "phone": "01035454936",
+  "address_ar": "حدائق أكتوبر، الشروق 190 فدان، الممشى السياحي، بجوار كبابجي مصر (بعد بوابة العرب)",
+  "address_en": "October Gardens, El Shorouk 190 Feddan, Tourist Walkway, next to Kababgy Masr (after Bawabet El Arab)",
+  "email": "",
+  "min_order": 0,
+  "currency_ar": "ج.م",
+  "currency_en": "EGP",
+  "cod": 1,
+  "online": 1,
+  "vodafone": "01035454936",
+  "pay_extra": "",
+  "sample": 0,
+  "open24": 1
+ }
+}
